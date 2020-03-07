@@ -124,7 +124,6 @@
   #### Tarefa 1.1:
   - Apresente os produtos (coluna touchproduct) mais procurados, salve a query e uma amostra do resultado com as primeiras 10 linhas para apresentar posteriormente. Ignore os valores da coluna touchproduct = 0.
  
-  
   #### Tarefa 1.2 - ajuste de schema:
   - Ajuste o schema da tabela aggregated, alterando os nomes das colunas de acordo com a tabela abaixo:
   
