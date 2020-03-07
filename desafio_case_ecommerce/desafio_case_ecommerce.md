@@ -144,14 +144,14 @@
 | partition_2  | day           |   |
 | partition_3  | hour          |   |
 
-  #### Tarefa 1.3 - Inferir Schema e criar Hive Tables:
+  #### Tarefa 1.3 - Inferir Schema e criar manualmente as Tabelas Hive:
   - As tabelas dos dados raw e aggregated data foram criadas atraves do Glue Crawlers.
-  - Em vez de utilizar o Glue, apresente como seria o processo para inferir os schemas dos dois tipos de dados brutos (raw - estrutura json e aggregated - estrutura csv) disponiveis no S3, utilizando PySpark e gerando um schema de tabela no Hive Metastore (o schema pode ser salvo no Glue Catalog).
-  - Na sequencia demonstre como realizar queries HiveQL ou no Athena nas duas tabelas criadas, realizando filtros simples e count de linhas. 
+  - Em vez de utilizar o Glue, apresente como seria o processo para inferir os schemas para criar os dataframes dos dois tipos de dados brutos (raw - estrutura json e aggregated - estrutura csv) disponiveis no S3, utilizando PySpark e gerando um schema de tabela no Hive Metastore (o schema pode ser salvo no Glue Catalog).
+  - Na sequencia demonstre como realizar queries no Athena nas duas tabelas criadas, realizando filtros simples e count de linhas. 
 
  ### Tarefas 2 - Armazenamento e Processamento Batch Data Lake:
   - Crie novo(s) bucket(s) S3 para armazenar outra(s) camada(s) do datalake. A(s) outra(s) camadas devem prover um armazenamento eficiente dos dados em termos de espaço e desempenho de acesso para queries exploratórias que possam ser realizadas de forma ad-hoc por diferentes equipes de usuários, analistas ou cientista de dados. 
-  - Os dados brutos armazenados no bucket atual devem ser processados pelo Spark ou Hive para serem gravados na(s) outra(s) camada(s).
+  - Os dados brutos armazenados no bucket atual devem ser processados pelo Spark para serem gravados na(s) outra(s) camada(s).
  
  ### Tarefas 3 - Visualização:
   - Apresentar gráficos (de barra, pizza, ou outros tipos) em uma ferramenta de Analytics/BI, analisando os acessos de navegação.
