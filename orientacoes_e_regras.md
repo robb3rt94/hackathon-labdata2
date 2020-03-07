@@ -8,7 +8,7 @@
    - Não utilizem serviços na AWS que não sejam diretamente necessários para resolver as tarefas.
 
 - Enviar apresentações e repositórios git (caso houver) para os emails:
-        - Samuel: samuel.o.schmidt@gmail.com
+    - Samuel: samuel.o.schmidt@gmail.com
         
 - Tempos para apresentação de cada grupo:
         - Um total de 8 minutos:
