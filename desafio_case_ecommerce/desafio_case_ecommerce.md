@@ -121,9 +121,11 @@
   ## Tarefas
   
   ### Tarefas 1 - Query e schema:
-  - Apresente os produtos mais procurados, salve a query e uma amostra do resultado com as primeiras 10 linhas para apresentar posteriormente.
+  #### Tarefa 1.1:
+  - Apresente os produtos (coluna touchproduct) mais procurados, salve a query e uma amostra do resultado com as primeiras 10 linhas para apresentar posteriormente. Ignore os valores da coluna touchproduct = 0.
+ 
   
-  #### Tarefa 1.1 - ajuste de schema:
+  #### Tarefa 1.2 - ajuste de schema:
   - Ajuste o schema da tabela aggregated, alterando os nomes das colunas de acordo com a tabela abaixo:
   
 | (Nome Atual) | (Novo Nome)   |   |
@@ -143,7 +145,7 @@
 | partition_2  | day           |   |
 | partition_3  | hour          |   |
 
-  #### Tarefa 1.2 - Inferir Schema e criar Hive Tables:
+  #### Tarefa 1.3 - Inferir Schema e criar Hive Tables:
   - As tabelas dos dados raw e aggregated data foram criadas atraves do Glue Crawlers.
   - Em vez de utilizar o Glue, apresente como seria o processo para inferir os schemas dos dois tipos de dados brutos (raw - estrutura json e aggregated - estrutura csv) disponiveis no S3, utilizando PySpark e gerando um schema de tabela no Hive Metastore (o schema pode ser salvo no Glue Catalog).
   - Na sequencia demonstre como realizar queries HiveQL ou no Athena nas duas tabelas criadas, realizando filtros simples e count de linhas. 
