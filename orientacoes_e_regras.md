@@ -11,9 +11,9 @@
     - Samuel: samuel.o.schmidt@gmail.com
         
 - Tempos para apresentação de cada grupo:
-        - Um total de 8 minutos:
-            - 5 minutos para apresentação. Pode usar PDF, PPT, notebook na databricks ou outra ferramenta que facilite a apresentação.
-            - 3 minutos para Perguntas e Respostas da banca para o grupo.
+    - Um total de 8 minutos:
+        - 5 minutos para apresentação. Pode usar PDF, PPT, notebook na databricks ou outra ferramenta que facilite a apresentação.
+        - 3 minutos para Perguntas e Respostas da banca para o grupo.
             
 ## Regras:
    - Times devem ter até 4 alunos.
