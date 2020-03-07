@@ -14,7 +14,19 @@
     - Um total de 8 minutos:
         - 5 minutos para apresentação. Pode usar PDF, PPT, notebook na databricks ou outra ferramenta que facilite a apresentação.
         - 3 minutos para Perguntas e Respostas da banca para o grupo.
-            
+
+- Ordem de apresentação dos grupos:
+    - Grupo1	sparkanos (git: https://github.com/jpneves/hackaton-labdata)
+    - Grupo2	hackatanga (git: https://github.com/ccaio89/hackatanga)
+    - Grupo3	Hackamasters (git: https://github.com/PollyanaZonta/Hackaton_FIA)
+    - Grupo4	Los bankeros (git: https://github.com/jaimemishima/fia-hackaton)
+    - Grupo5	Hacka Kah (git: https://github.com/marcoabarbosa/hackathon-labdata2)
+    
+- Grupos premiados:
+    - Primeiro Lugar ("Hacka Kah")
+    - Segundo Lugar ("sparkanos")
+    - Terceiro Lugar ("los bankeros") 
+               
 ## Regras:
    - Times devem ter até 4 alunos.
    - Cada time vai ter um representante que irá criar ou utilizar um email específico para receber uma conta temporária da AWS.
@@ -29,6 +41,5 @@
                 - subdiretório => tarefas1
                     - subdiretório => tarefa11   
    - Premiação: haverá troféus e brindes para o time que obtiver o primeiro lugar e brindes para o time que obtiver segundo lugar. 
-
 
 ### A equipe Labdata deseja boas atividades a todas as equipes. Se divirtam e aprendam o máximo que puderem, colaborando e ensinando também !
