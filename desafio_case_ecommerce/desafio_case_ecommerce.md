@@ -121,7 +121,7 @@
   ## Tarefas
   
   ### Tarefas 1 - Query e schema:
-  #### Tarefa 1.1:
+  #### Tarefa 1.1 - query:
   - Apresente os produtos (coluna touchproduct) mais procurados, salve a query e uma amostra do resultado com as primeiras 10 linhas para apresentar posteriormente. Ignore os valores da coluna touchproduct = 0.
  
   #### Tarefa 1.2 - ajuste de schema:
