@@ -6,7 +6,6 @@
     - O Kinesis Streams é consumido por três consumidores diferentes: Kinesis Firehose, Kinesis Data Analytics e uma Lambda Function. Então temos três destinados para cada registro.
     - O Kinesis Data Analytics realiza agregação nos dados em near real time. 
     - O Kinesis Firehose grava os dados brutos (raw) para um bucket S3 para ser analisado posteriormente.
-    - Também há outra função Lambda que pode enviar dados para o ElasticSearch e na sequencia visualizá-los no Kibana.
 
 - Fluxo de dados criado pelo Cloudformation:
 
@@ -19,7 +18,6 @@
     https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?&templateURL=https:%2F%2Fs3.amazonaws.com%2Fhhug-demo-data%2Fkinesis-demo%2Fecommerce%2Fstreaming-ecommerce-es.template
     ```
    
-    
 - Preencher os valores dos parâmetros solicitados de forma semelhante ao seguinte exemplo:
      - obs 1: Lembre-se que o nome do S3 bucket (Bucket Name) tem que possuir um prefixo unico em nível global.
      - obs 2: Lembre-se de fazer deploy na region da N. Virgina (para escolhar a region selecione no conto de acima no lado direito do browser (na página da console da AWS) a region solicitada.
@@ -163,13 +161,6 @@
    
   #### Tarefa 3.2 - Heat Map:
    - Apresentar um mapa de calor (Heat map) de acessos por Trafficfrom e Url.
-  
- ### Tarefas 4 - Dashboard Near Real Time no Kibana:
-   #### Tarefa 4.1 - Visualização de visitante unicos no Kibana:
-   - Desenvolva um Dashboard no Kibana, apresentando a quantidade de visitantes unicos navegando no ecommerce ao longo do tempo.
- 
- 
-   
   
     
   
