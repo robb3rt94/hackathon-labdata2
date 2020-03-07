@@ -7,6 +7,14 @@
    - É recomendável instalar e utilizar ferramentas de desenolvimento de códigos, sugestões: VScode, Jetbrains (Pycharm, IntelliJ) ou outras.
    - Não utilizem serviços na AWS que não sejam diretamente necessários para resolver as tarefas.
 
+- Enviar apresentações e repositórios git (caso houver) para os emails:
+        - Samuel: samuel.o.schmidt@gmail.com
+        
+- Tempos para apresentação de cada grupo:
+        - Um total de 8 minutos:
+            - 5 minutos para apresentação. Pode usar PDF, PPT, notebook na databricks ou outra ferramenta que facilite a apresentação.
+            - 3 minutos para Perguntas e Respostas da banca para o grupo.
+            
 ## Regras:
    - Times devem ter até 4 alunos.
    - Cada time vai ter um representante que irá criar ou utilizar um email específico para receber uma conta temporária da AWS.
@@ -21,5 +29,6 @@
                 - subdiretório => tarefas1
                     - subdiretório => tarefa11   
    - Premiação: haverá troféus e brindes para o time que obtiver o primeiro lugar e brindes para o time que obtiver segundo lugar. 
+
 
 ### A equipe Labdata deseja boas atividades a todas as equipes. Se divirtam e aprendam o máximo que puderem, colaborando e ensinando também !
