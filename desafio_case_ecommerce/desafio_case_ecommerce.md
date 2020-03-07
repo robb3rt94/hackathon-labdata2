@@ -9,7 +9,7 @@
 
 - Fluxo de dados criado pelo Cloudformation:
 
-    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/fluxo_de_dados.png)
+    ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/fluxo_de_dados.png)
 
 
 - Realizar deploy do Cloudformation template:
@@ -22,7 +22,7 @@
      - obs 1: Lembre-se que o nome do S3 bucket (Bucket Name) tem que possuir um prefixo unico em nível global.
      - obs 2: Lembre-se de fazer deploy na region da N. Virgina (para escolhar a region selecione no conto de acima no lado direito do browser (na página da console da AWS) a region solicitada.
 
-    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo1.png)
+    ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo1.png)
 
 
 - Verifique o status da evolução do cloudformation ecommerce:
@@ -31,17 +31,17 @@
     https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks
     ```
 
-    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo2.png)
+    ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo2.png)
 
 
 - Aguarde, entre 12 e 20 minutos, para o deploy fique com o status de completo (CREATE_COMPLETE):
   
-    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo3.png)
+    ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo3.png)
 
 
 - Valide os recursos criados:
 
-    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo4.png)
+    ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/cloudformation_passo4.png)
 
 
    ## Kinesis
@@ -51,7 +51,7 @@
     ```
     - obs: Explore o Kinesis data streams e o Kinesis Firehose.
     
-   ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/kinesis_dashboard.png)
+   ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/kinesis_dashboard.png)
   
   
    ### Kinesis Analytics
@@ -61,25 +61,25 @@
     ```
     - Selecione e abra "Application details":
     
-    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/kinesis_analytics_passo1.png)
+    ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/kinesis_analytics_passo1.png)
     
     - Abra a aplicação e va para o botão "Go To SQL editor":
     
-    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/kinesis_analytics_passo2.png)
+    ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/kinesis_analytics_passo2.png)
     
     - Clique para ir para o SQL editor e inicie a application, clique “Yes, start application”:
     
-    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/kinesis_analytics_passo3.png)
+    ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/kinesis_analytics_passo3.png)
     
     #### Explore o código SQL no Kinesis Analytics
     - Para agregar as métricas para cada Customer ID (custid) com a função Stagger Window podemos agrupar eventos para uma unica sessão por navegação de Usuário ou Device:
     - A cada 1 minuto o código extrai o inicio e fim das navegações, em termos de navegação de URL e tempo de navegação. Também é criado um Session_ID concatenando custid + 1-3 substring do Device + Timestamp removendo milissegundos.  
-    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/kinesis_analytics_query.png)
+    ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/kinesis_analytics_query.png)
     
     - verifique a amostra de dados no streaming:
-     ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/kinesis_analytics_sample.png)
+     ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/kinesis_analytics_sample.png)
      
-     ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/kinesis_analytics_sample2.png)
+     ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/kinesis_analytics_sample2.png)
     
     ## Verificar o Amazon S3 na console
     ```
@@ -87,11 +87,11 @@
     ```
     - Clique no nome do bucket que você criou e verifique se há duas pastas "raw" e "aggregated". Aguarde por um tempo para que os dados agregados sejam armazenados no bucket.
     
-    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/s3_bucket_raw_aggregated.png)
+    ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/s3_bucket_raw_aggregated.png)
     
     - Navegue nas pastas e verifique os arquivos:
     
-    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/s3_bucket_raw_files.png)
+    ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/s3_bucket_raw_files.png)
     
   ## Crawler do s3 para obter a definição de tabela no Glue
     ```
@@ -99,9 +99,9 @@
     ```
     - Vá até o menu do Glue e clique em Crawler, selecione sessionization_ecommerce.
     - Marque o job e clique em "Run crawler". 
-    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/glue_crawler_passo1.png)
+    ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/glue_crawler_passo1.png)
   
-    ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/glue_crawler_passo2.png)
+    ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/glue_crawler_passo2.png)
 
   ## Realize query nos dados no Amazon Athena
     ```
@@ -109,15 +109,15 @@
     ```
     - Vá até o menu do Athena e clique em Databases, selecione sessions_ecommerce.
     - Clique em Get Started, então clique (x) para sair do tutorial:
-     ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/athena_tutorial.png)
+     ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/athena_tutorial.png)
      
     - Escolha o database sessions_ecommerce:
      
-     ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/athena_database.png)
+     ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/athena_database.png)
     
     - Verifique as tabelas raw e aggregated:
   
-     ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/athena_query_raw.png)
+     ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/athena_query_raw.png)
   ## Tarefas
   
   ### Tarefas 1 - Query e schema:
@@ -157,7 +157,7 @@
   #### Tarefa 3.1 - Gráfico de pizza por device:
    - Gerar um gráfico de acessos por diferentes devices, semelhante ao seguinte exemplo:
    
-   ![alt text](https://github.com/schmidt-samuel/fia_batalha_de_dados1/blob/master/desafio_case_ecommerce/imagens/acessos_por_device.png)
+   ![alt text](https://github.com/schmidt-samuel/hackathon-labdata2/blob/master/desafio_case_ecommerce/imagens/acessos_por_device.png)
    
   #### Tarefa 3.2 - Heat Map:
    - Apresentar um mapa de calor (Heat map) de acessos por Trafficfrom e Url.
